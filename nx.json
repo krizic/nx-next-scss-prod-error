@@ -1,0 +1,22 @@
+{
+  "npmScope": "happynrwl",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "app-next": {
+      "tags": []
+    },
+    "app-next-e2e": {
+      "tags": [],
+      "implicitDependencies": ["app-next"]
+    }
+  }
+}
