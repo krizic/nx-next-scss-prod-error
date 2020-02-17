@@ -60,7 +60,8 @@
           "builder": "@nrwl/jest:jest",
           "options": {
             "jestConfig": "apps/app-next/jest.config.js",
-            "tsConfig": "apps/app-next/tsconfig.spec.json"
+            "tsConfig": "apps/app-next/tsconfig.spec.json",
+            "passWithNoTests": true
           }
         }
       }
